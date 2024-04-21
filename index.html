@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="./Images/icon.png" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script defer src="./JS/script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header open">
+        <div class="container">
+          <nav class="header__navbar" id="menu">
+            <a class="header__link" href="#home">Home</a>
+            <a class="header__link" href="#about">About me</a>
+            <a class="header__link" href="#skills">Skills</a>
+            <a class="header__link" href="#portfolio">Portfolio</a>
+            <a class="header__link" href="#">Contacts</a>
+          </nav>
+        </div>
+        <button class="burger" id="burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </header>
+      <main class="main">
+        <section class="home" id="home">
+          <div class="container">
+            <div class="home__row">
+              <h1 class="home__title">Denis<br />Novik</h1>
+              <p class="home__subtitle">
+                UX | UI designer<br />24 years old, Minsk
+              </p>
+              <p class="home__lang"><span class="home__ru">RU</span> | ENG</p>
+            </div>
+            <picture>
+              <source
+                srcset="./Images/DenisAdaptive.png"
+                type="image/png"
+                media="(max-width: 425px)"
+              />
+              <img
+                class="home__image"
+                src="Images/header.jpg"
+                alt="My Phohto"
+              />
+            </picture>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <div class="container">
+            <h2 class="about__title">About me</h2>
+            <p class="about__text">
+              Hi, i'm Denis - UX/UI designer from Minsk.<br />I'm interested in
+              design and everything connected with it.
+            </p>
+            <p class="about__text">
+              I'm studying at courses "Web and mobile design<br />interfaces in
+              IT-Academy.
+            </p>
+            <p class="about__text">
+              Ready to implement excellent projects<br />with wonderful people
+            </p>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <div class="container">
+            <h2 class="skills__title">Skills</h2>
+            <p class="skills__subtitle">I work in such programs as</p>
+            <div class="skills__row">
+              <div class="skills__card">
+                <img
+                  class="skills__card-img"
+                  src="./Images/Photoshop.svg"
+                  alt="PS"
+                />
+                <h3 class="skills__card-title">Adobe<br />Photoshop</h3>
+                <div class="skills__card-rate">
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star-empty.svg" alt="star" />
+                </div>
+              </div>
+              <div class="skills__card">
+                <img
+                  class="skills__card-img"
+                  src="./Images/Illustrator.svg"
+                  alt="AI"
+                />
+                <h3 class="skills__card-title">Adobe<br />Illustrator</h3>
+                <div class="skills__card-rate">
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star-empty.svg" alt="star" />
+                  <img src="./Images/Star-empty.svg" alt="star" />
+                </div>
+              </div>
+              <div class="skills__card">
+                <img
+                  class="skills__card-img"
+                  src="./Images/AfterEffects.svg"
+                  alt="AE"
+                />
+                <h3 class="skills__card-title">Adobe<br />After Effects</h3>
+                <div class="skills__card-rate">
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star-empty.svg" alt="star" />
+                </div>
+              </div>
+              <div class="skills__card">
+                <img
+                  class="skills__card-img"
+                  src="./Images/Figma.svg"
+                  alt="Figma"
+                />
+                <h3 class="skills__card-title figma">Figma</h3>
+                <div class="skills__card-rate">
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star.svg" alt="star" />
+                  <img src="./Images/Star-empty.svg" alt="star" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+          <div class="container">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <div class="portfolio__inner">
+              <img
+                src="Images/Fashion.png"
+                alt="Fashion"
+                class="portfolio__inner-img"
+              />
+              <a href="#" class="portfolio__link"
+                >Online fashion store - Homepage</a
+              >
+            </div>
+            <div class="portfolio__inner">
+              <img
+                src="Images/Reebok.png"
+                alt="Reebok"
+                class="portfolio__inner-img"
+              />
+              <a href="#" class="portfolio__link">Reebok store - Concept</a>
+            </div>
+            <div class="portfolio__inner">
+              <img
+                src="Images/Braun.png"
+                alt="Braun"
+                class="portfolio__inner-img"
+              />
+              <a href="#" class="portfolio__link"
+                >Braun Landing Page - Concept</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <h3 class="footer__title">Contacts</h3>
+            <p class="footer__text">
+              Want to know more or just chat?<br />You're welcome!
+            </p>
+            <button class="footer-btn">Send message</button>
+            <div class="footer__contacts">
+              <img
+                src="Images/Linkedin.svg"
+                alt="Icons"
+                class="footer__contacts-img"
+              />
+              <img
+                src="Images/instagram.svg"
+                alt="Icons"
+                class="footer__contacts-img"
+              />
+              <img
+                src="Images/Behance.svg"
+                alt="Icons"
+                class="footer__contacts-img"
+              />
+              <img
+                src="Images/Dribble.svg"
+                alt="Icons"
+                class="footer__contacts-img"
+              />
+            </div>
+            <p class="footer__details">
+              Like me on<br />Linkedln, Instagram, Behance, Dribble
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
